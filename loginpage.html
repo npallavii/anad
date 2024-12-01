@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Store Order</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color: aqua;">
+    <br><br><br><br>
+<center>    <div class="order-container">
+        <h1>Place Your Grocery Order</h1>
+
+        <form action="last.html">
+            <label for="name"><b>Full Name:</b></label>
+            <input type="text" id="name" name="name" required aria-label="Full Name">
+            <br><br>
+
+            <label for="email"><b>Email:</b></label>
+            <input type="email" id="email" name="email" required aria-label="Email">
+            <br><br>
+
+            <label for="items"><b>Select ANY Items:</b></label>
+            <select id="items" name="items" required aria-label="Grocery Items">
+                <option value="Apples">Apples</option>
+                <option value="potatoes">potatoes</option>
+                <option value="Carrots">Carrots</option>
+                <option value="Tomatoes">Tomatoes</option>
+                <option value="curryleaves">curry leaves</option>
+                <option value="Bananas">Bananas</option>
+                <option value="bottles">bottles</option>
+                <option value="steel utensils">untensils</option>
+                <option value="sweeping things">sweeping things</option>
+                <option value="ornaments">ornaments</option>
+                <option value="cusmotics">cusmotics</option>
+                <option value="clothe store">clothe store</option>
+            </select>
+            <br><br>
+
+            <label for="quantity"><b>Quantity:</b></label>
+            <input type="number" id="quantity" name="quantity" min="1" required aria-label="Quantity">
+            <br><br>
+
+            <label for="address"><b>Delivery Address:</b></label>
+            <textarea id="address" name="address" required aria-label="Delivery Address"></textarea>
+            <br><br>
+
+            <button type="submit">Place Order</button>
+        </form>
+    </div>
+</center>
+</body>
+</html>
